@@ -1,0 +1,45 @@
+/* Style Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+/* Nav Bar */
+.header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.header a {
+    margin-left: 10px;
+}
+
+.navbar {
+    display: flex;
+    margin: 10px 0px;
+    margin-left: auto;
+}
+
+.navbar a {
+    margin: 20px;
+}
